@@ -15,7 +15,9 @@ public abstract class IPhoneFactory {
 		device.getHardware();
 		device.assemble();
 		device.certificates();
+		System.out.println(rules.getCertificates().applyCertification());
 		device.pack();
+		System.out.println(rules.getPacking().pack());
 		
 		return device;
 	}
