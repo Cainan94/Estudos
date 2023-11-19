@@ -1,2 +1,6 @@
 target/*
 /target/
+/.idea/misc.xml
+/.idea/vcs.xml
+/.idea/jarRepositories.xml
+/.idea/compiler.xml
